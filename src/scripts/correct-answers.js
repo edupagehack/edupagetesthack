@@ -9,6 +9,8 @@ materialObj.getAllAnswerWidgets().forEach((question) => {
         const answers = question.props.correctAnswers;
         const id = question.id;
 
+        
+
         if (answers == undefined) {
             return;
         }
